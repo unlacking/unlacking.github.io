@@ -1,0 +1,65 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+body {
+    background-color: #0d0d0d;
+    color: #F1C40F;
+    font-family: 'Courier New', Courier, monospace;
+    margin: 20px;
+    display: flex;
+    justify-content: left;
+}
+
+#terminal {
+    width: 100%;
+    height: 100vh;
+    overflow-y: auto;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    scrollbar-width: thin;
+    scrollbar-color: #F1C40F #0d0d0d;
+}
+
+#terminal::-webkit-scrollbar {
+    width: 6px;
+}
+
+#terminal::-webkit-scrollbar-track {
+    background: #0d0d0d;
+}
+
+#terminal::-webkit-scrollbar-thumb {
+    background: #00ff41; 
+    border-radius: 10px;
+}
+
+#history div {
+    white-space: pre-wrap;
+    margin-bottom: 10px;
+    line-height: 1.5;
+}
+
+.input-line {
+    display: flex;
+    align-items: left;
+}
+
+.prompt {
+    margin-right: 10px;
+    color: #ff0055
+}
+
+input {
+    background: transparent;
+    border: none;
+    color: #00ff41;
+    outline: none;
+    font-family: inherit;
+    font-size: inherit;
+    width: 100%;
+}
