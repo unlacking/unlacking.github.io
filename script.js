@@ -53,7 +53,7 @@ const files = {
 ~ {comicallyignorant@gmail.com} for any inquiries.`,
     'projects.txt': '~ Stay tuned :)',
     'socials.txt': `~ Discord: @unl4cking
-    ~ Github: @unlacking`
+~ Github: @unlacking`
 }
 
 function showBanner() {
