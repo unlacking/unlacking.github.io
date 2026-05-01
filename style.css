@@ -14,6 +14,21 @@ body {
     justify-content: left;
 }
 
+.copyable {
+    color: #F1C40F;
+    cursor: pointer;
+    text-decoration: underline dotted;
+}
+
+.copyable:hover {
+    background-color: #F1C40F;
+    color: #0d0d0d;
+}
+
+.copyable:active {
+    color: #ffffff;
+}
+
 #terminal {
     width: 100%;
     height: 100vh;
@@ -36,6 +51,21 @@ body {
 #terminal::-webkit-scrollbar-thumb {
     background: #00ff41; 
     border-radius: 10px;
+}
+
+#terminal a {
+    color: inherit;
+    text-decoration: underline;
+}
+
+#terminal a:visited {
+    color: inherit;
+}
+
+#terminal a:hover {
+    background-color: #00ff41;
+    color: #0d0d0d;
+    text-decoration: none;
 }
 
 #history div {
